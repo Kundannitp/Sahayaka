@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D00ACC1"
+    >
+    <ImageButton
+        android:id="@+id/ib_close_notices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ib_close_black_notices" />
+    <TextView
+        android:id="@+id/upload_notes_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Notes"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="#1E88E5"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/note_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/upload_notes_heading"
+        >
+
+    <!--    Layout for name-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note Title"
+                android:textSize="18sp"
+                android:textColor="#272626"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:id="@+id/note_title_edit"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/note_description_layout"
+        android:layout_below="@+id/note_title_layout"
+        >
+
+        <!--    Layout for name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="start"
+                android:id="@+id/patient_name_layout"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Note Discription"
+                    android:textSize="18sp"
+                    android:textColor="#272626"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:id="@+id/notes_discription_edit"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/selected_file_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selected File ..."
+                    android:textSize="18sp"
+                    android:textColor="#272626"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_description_layout"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#08576D"
+            android:textColor="@color/white"
+            android:text="Select Pdf"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/selectPdf_btn"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#08576D"
+            android:textColor="@color/white"
+            android:text="Upload Pdf"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/Upload_notes_btn"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

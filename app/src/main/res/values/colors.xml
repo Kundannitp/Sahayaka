@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A2213C</color>
+    <color name="colorPrimaryDark">#8F0A25</color>
+    <color name="colorAccent">#CA020B</color>
+    <color name="bubbleColor">#08576D</color>
+
+
+    <color name="white">#FFF</color>
+
+
+    <color name="ErrorColor">#F93636</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+
+</resources>

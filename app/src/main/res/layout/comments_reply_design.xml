@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reply_person_ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/man"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorAccent"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/comment_botMsgLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_toLeftOf="@+id/reply_person_ImageView"
+        android:background="@drawable/bubble_comment_reply"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reply_person_Name"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_toRightOf="@+id/cardView_commodityImageView"
+            android:text="Commodity name "
+            android:textColor="#000000"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="14sp"
+            />
+
+        <View
+            android:id="@+id/cardView_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#A5A3A3"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/reply_msg_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="25dp"
+            android:padding="7dp"
+            android:text="abcdefgh"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>

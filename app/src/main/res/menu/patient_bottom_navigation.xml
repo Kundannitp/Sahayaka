@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/patient_blog"
+        android:icon="@drawable/ic_doctor_appointments"
+        android:menuCategory="secondary"
+        android:title="Blogs" />
+
+    <item
+        android:menuCategory="secondary"
+        android:id="@+id/patient_chat"
+        android:icon="@drawable/ic_chat_bot"
+        android:title="Chat bot"/>
+    <item
+        android:menuCategory="secondary"
+        android:id="@+id/live_update"
+        android:icon="@drawable/ic_live_tv_black_24dp"
+        android:title="Live" />
+
+<!--    <item-->
+<!--        android:id="@+id/patient_profile"-->
+<!--        android:icon="@drawable/ic_doctor_profile"-->
+<!--        android:title="Profile"/>-->
+
+</menu>

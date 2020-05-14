@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/comment_person_ImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/man"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorAccent"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/comment_botMsgLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_toRightOf="@+id/comment_person_ImageView"
+        android:background="@drawable/comment_background_bubble"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/comment_person_Name"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/cardView_commodityImageView"
+            android:text="Commodity name "
+            android:textColor="#000000"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="14sp"
+            />
+
+        <View
+            android:id="@+id/cardView_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:background="#A5A3A3"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/comment_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="25dp"
+            android:padding="7dp"
+            android:text="abcdefgh"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/reply_clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to reply..."
+            android:paddingRight="15dp"
+            android:textColor="@color/colorPrimary"
+            android:drawablePadding="4dp"
+            android:drawableLeft="@drawable/ic_pen_icon"
+            android:layout_marginLeft="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/reply_layout_linear"
+            >
+            <EditText
+                android:id="@+id/reply_text_to_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="reply..."
+                android:padding="5dp"
+                android:width="210dp"
+                android:background="@drawable/edittext_design"
+
+                />
+            <Button
+                android:id="@+id/reply_btn_send"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="Post"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_background"
+                />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>

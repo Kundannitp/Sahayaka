@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1074922719027",
+    "firebase_url": "https://doctalk-80d98.firebaseio.com",
+    "project_id": "doctalk-80d98",
+    "storage_bucket": "doctalk-80d98.appspot.com"
+  },
+  "client": [
+      {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074922719027:android:991cb054c72e42eb1b6046",
+        "android_client_info": {
+          "package_name": "com.pranks.doctalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074922719027-qtjktgpgd75jr7gu9e813gmv13sqcisi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pranks.doctalk",
+            "certificate_hash": "86f657a1755b9f1f8fd592b6486231fb00f08e70"
+          }
+        },
+        {
+          "client_id": "1074922719027-0o7dk4r187g42gd2k34kcetnenvcrq5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD0pNTshfi7pSIMyzyEt1vmmPCuwC7d-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074922719027-0o7dk4r187g42gd2k34kcetnenvcrq5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

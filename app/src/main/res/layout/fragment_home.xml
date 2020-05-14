@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?android:windowBackground"
+    android:id="@+id/rl"
+
+    >
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        ></com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewpage"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/cannotfind"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/cannotfind"-->
+
+<!--        android:layout_alignParentTop="true"-->
+
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="No active appointments"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_alignBottom="@+id/cannotfind"-->
+<!--        android:layout_marginBottom="130dp"-->
+<!--        android:id="@+id/cannotfind_text"-->
+
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recycler_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:clipToPadding="false"-->
+<!--        />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progress_circle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_add_black"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#08576D"
+        android:id="@+id/add_blogs"
+
+        />
+
+
+</RelativeLayout>

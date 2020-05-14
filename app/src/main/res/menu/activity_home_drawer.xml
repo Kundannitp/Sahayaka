@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_patient_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_patient_education"
+            android:icon="@drawable/ic_computer_black_24dp"
+            android:title="Education"
+            />
+
+        <item
+            android:id="@+id/nav_patient_profile"
+            android:icon="@drawable/ic_patient_profile"
+            android:title="@string/menu_patient_profile" />
+        <item
+            android:id="@+id/nav_patient_logout"
+            android:icon="@drawable/ic_patient_logout"
+            android:title="Logout"
+            android:checkable="false"
+            />
+    </group>
+
+</menu>
