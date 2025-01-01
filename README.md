@@ -6,4 +6,4 @@
 https://drive.google.com/file/d/1P_k1dtL1p8kdpFUfrDIpyymPURU87962/view?usp=sharing
 
 Screenshots:
-![All Blogs section with search bar](https://drive.google.com/file/d/1C82MS7H5RltBi01M12O1zPPWHXwKCRDc/view?usp=drive_link)
+![All Blogs section with search bar](https://drive.google.com/file/d/1C82MS7H5RltBi01M12O1zPPWHXwKCRDc/view)
