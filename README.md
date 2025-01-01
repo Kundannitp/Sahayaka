@@ -10,5 +10,6 @@ Screenshots:
 2. Comment and reply on blogs
 3. Chat Bot: An AI-based medical assistant for general medical queries regarding covid-19.
 4. Realtime covid-19 cases update in graphical format from across the globe.
-5. Search bar to get updates of any specific region. 
+5. Search bar to get updates of any specific region.
+
 ![All Blogs section with search bar](https://github.com/Kundannitp/Sahayaka/blob/master/demo/combined.jpg)
